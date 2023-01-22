@@ -8,7 +8,7 @@ packages = [{include = "renovate_poetry_contraint_repro"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pylint = "2.10"
+pylint = "2.10.0"
 
 
 [build-system]
