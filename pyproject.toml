@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "renovate-poetry-contraint-repro"
+version = "0.1.0"
+description = "minimal repro for renovate bug"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "renovate_poetry_contraint_repro"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pylint = "2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
